@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'Dark-Black';
+    src:url('Dark-Black.ttf.woff') format('woff'),
+        url('Dark-Black.ttf.svg#Dark-Black') format('svg'),
+        url('Dark-Black.ttf.eot'),
+        url('Dark-Black.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fredericka-the-great';
+    src: url('fonts/FrederickatheGreat-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  height:100%;
+  margin:0;
+  color:#fff;
+  font-family: fredericka-the-great; 
+  font-style: normal;    
+  background: url('images_UG/cuponbeansfaded.jpeg') no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+nav {
+  position:fixed;
+  height:50px;
+  width:100%;
+  top: 0;
+  background-color:rgba(0,0,0,0.5);
+   transition: all 0.2s ease-in;
+}
+
+/*.othercolor {
+  background-color:rgba(255,255,255,0.9);
+  color:rgba(0,0,0,1);
+  z-index:100;
+   transition: all 0.2s ease-in;
+}
+*/
+header {
+
+  margin: 0 100px;
+  text-align: center;
+}
+
+ul {
+  float:right;
+  margin-right:50px;
+}
+
+li {
+  display:inline-block;
+  margin-right:50px;
+}
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  transition: all 0.2s ease-in;
+}
+
+.nlink {
+  text-decoration: none;
+  text-transform:uppercase;
+  color:#000;
+  transition: all 0.2s ease-in;
+}
+
+.content {
+  width: 1000px;
+  margin: 100px  auto;
+}
+.menu li{
+	display: flex;
+	flex-flow: row-wrap;
+	justify-content: flex-start;
+}
+
+.ug_menu{
+	display: inline;
+	font-style: normal;
+	font-weight: 400; 
+	font-family: fredericka-the-great;
+	font-size: 14px;
+	padding: 14px 25px;
+	text-align: center;
+
+}
+	
+.primary_header{
+	float: left;
+	overflow: hidden;
+	margin-top: 100px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 100%;
+	font-color: #FFFFFF;
+
+}	
+
+.footer {
+	background-color: #292929;
+
+}
+.title {
+	font-weight: 400;
+	font-style: normal;
+	font-family: fredericka-the-great;
+	font-size: 70px;
+	color: #FFFFFF;
+	letter-spacing: 3px;
+	width:100%;
+}
+.subtitle {
+	font-weight: 500;
+	font-style: italic;
+	font-size: 25px;
+	font-family: fredericka-the-great;
+	font-color: #FFFFFF;
+	position: absolute;
+	top: 100px;
+	left: 380px;
+	letter-spacing: 3px;
+}
+
+
+

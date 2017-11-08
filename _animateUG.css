@@ -1,0 +1,20 @@
+
+.option{
+	-vendor-animation-iteration-count: infinite | <number>;
+}
+
+
+#viewport .animation: {
+position: relative;
+width: 800px;
+height: 600px;
+overflow: hidden;
+
+}
+#viewport .smoke .animation: {
+position: absolute;
+width: 250px;
+height: 250px;
+bottom: 150px;
+margin-left:0px
+}

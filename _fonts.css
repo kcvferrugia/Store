@@ -1,0 +1,37 @@
+/*----------------------
+		FONTS
+------------------------*/
+
+@font-face {
+    font-family: 'Dark-Black';
+    src:url('Dark-Black.ttf.woff') format('woff'),
+        url('Dark-Black.ttf.svg#Dark-Black') format('svg'),
+        url('Dark-Black.ttf.eot'),
+        url('Dark-Black.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Boomtowndeco';
+	src:url('Boomtowndeco.woff') format('woff'),
+		url('Boomtowndeco.ttf');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Serendity';
+	src:url('Serendity_script.ttf'),
+		url('Serendity_script.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Vampire';
+	src:url('Vampire Calligraphy.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
